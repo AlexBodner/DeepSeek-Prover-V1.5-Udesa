@@ -5,7 +5,7 @@ from prover.algorithms import RMaxTS
 # dataset
 data_path = 'datasets/mini-minif2f.jsonl'
 data_split = 'test'
-data_repeat = 16  # run 16 * 6400
+data_repeat = 2  # run 16 * 6400
 
 # verifier
 lean_max_concurrent_requests = 64
